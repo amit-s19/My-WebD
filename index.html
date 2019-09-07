@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">    
+        <!--Using the Bootstrap CDN to directly work with bootstrap in our site-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Using JS in our site-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </head>
+
+    <title>アニメワールド</title>
+    
+    <body>
+
+        <!-- Creating the navigation bar of our page-->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand h1" href="#">アニメワールド</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#animeMenu" aria-controls="animeMenu" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="animeMenu">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#">ホーム</a>
+                        <a class="nav-item nav-link" href="#">情報</a>
+                        <a class="nav-item nav-link" href="#">接触</a>
+                        <a class="nav-item nav-link" href="#">ギャラリー</a>
+                        <a class="nav-item nav-link" href="#">もっと</a>
+                    </div>
+                </div>
+            </nav>
+
+        <!-- Creatingt the jumbotron-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h3 class="display-4">今後予定されているすべてのアニメの最新情報。</h3>
+                    <hr class="my-4">
+                    <p>あなたのアニメに関するすべての情報を取得するためのお気に入りのソース </p>
+                    <button class="btn btn-danger" type="button">申し込む</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Creating the cards for the ongoing animes-->
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="display-5 text-center">
+                        進行中のアニメ</h3>
+                <hr class="my-4">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://cdn.myanimelist.net/images/anime/1517/100633l.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                                進撃の巨人</h5>
+                                <hr>
+                        <p class="card-text">
+                                数百年前、人間は巨人によってほぼ根絶されていました。ジャイアンツは一般的に数階建てで、知性がなく、人間を食い尽くしているように思われ、最悪の場合、食料源としてではなく、喜びのためにそれを行っているようです。
+                        </p>
+                        <a href="#" class="btn btn-danger">
+                                続きを読む</a>
+                    </div>
+                </div>                
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-s-12">
+                    <div class="card">
+                        <img class="card-img-top" src="https://cdnimg.xyz/images/anime/One-piece.jpg" height="500px">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                    ワンピース</h5>
+                                    <hr>
+                            <p class="card-text">
+                                    ワンピースは、強盗になりたいモンキー・D・ルフィについての物語です。神秘的な世界には、特別な力を持っているが最大の弱点を持つ神秘的な果物があります猿はガムガムフルーツを食べた
+                                    彼に奇妙な力を与えた。
+                            </p>
+                            <a href="#" class="btn btn-danger">
+                                    続きを読む</a>
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" src="https://cdnimg.xyz/cover/black-clover-tv.png">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                        ブラッククローバー</h5>
+                                        <hr>
+                                <p class="card-text">
+                                        アスタとユノは同じ教会で一緒に見捨てられ、それ以来不可分でした。子供として、彼らは次の皇帝メイガスになるだろうかを確認するためにお互いに競うことを約束しました。しかし、彼らが成長するにつれて、それらの間のい。
+                                </p>
+                                <a href="#" class="btn btn-danger">
+                                        続きを読む</a>
+                            </div>
+                        </div>                
+                    </div>
+        </div>
+
+        <div class="row mt-5">
+                <div class="col-md-12">
+                    <h3 class="display-5 text-center">
+                            今後のアニメ</h3>
+                    <hr class="my-4">
+                </div>
+            </div>
+
+        <!--Creating the upcoming anime part-->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="https://qph.fs.quoracdn.net/main-qimg-4ed4044a56a86cc4e4726a9d9f3eefe1" class="img-fluid" style="max-height: 70%; max-width: 70%"> 
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                                漂白剤が戻ってくる</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                                ブリーチ・ザ・アニメは2019年に戻ってくると噂されています。スタジオ・ピエロは公式Twitterに素晴らしい投稿をアップロードしており、以下もその1つです。アニメのオンラインコミュニティによって、漫画家Tite Kuboによって作成され、スタジオピエロによってアニメーション化された漫画Bleachが復活する可能性があると噂されています。</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="btn btn-primary" href="#">続きを読む</a> 
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <div class="row mt-5">
+                <div class="col-md-4">
+                    <img src="https://qph.fs.quoracdn.net/main-qimg-4ed4044a56a86cc4e4726a9d9f3eefe1" class="img-fluid" style="max-height: 70%; max-width: 70%"> 
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>
+                                    漂白剤が戻ってくる</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>
+                                    ブリーチ・ザ・アニメは2019年に戻ってくると噂されています。スタジオ・ピエロは公式Twitterに素晴らしい投稿をアップロードしており、以下もその1つです。アニメのオンラインコミュニティによって、漫画家Tite Kuboによって作成され、スタジオピエロによってアニメーション化された漫画Bleachが復活する可能性があると噂されています。</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="btn btn-primary" href="#">続きを読む</a> 
+                        </div>
+                    </div>                
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                    <div class="col-md-4">
+                        <img src="https://qph.fs.quoracdn.net/main-qimg-4ed4044a56a86cc4e4726a9d9f3eefe1" class="img-fluid" style="max-height: 70%; max-width: 70%"> 
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1>
+                                        漂白剤が戻ってくる</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>
+                                        ブリーチ・ザ・アニメは2019年に戻ってくると噂されています。スタジオ・ピエロは公式Twitterに素晴らしい投稿をアップロードしており、以下もその1つです。アニメのオンラインコミュニティによって、漫画家Tite Kuboによって作成され、スタジオピエロによってアニメーション化された漫画Bleachが復活する可能性があると噂されています。</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a class="btn btn-primary" href="#">続きを読む</a> 
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                        <div class="col-md-4">
+                            <img src="https://qph.fs.quoracdn.net/main-qimg-4ed4044a56a86cc4e4726a9d9f3eefe1" class="img-fluid" style="max-height: 70%; max-width: 70%"> 
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>
+                                            漂白剤が戻ってくる</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>
+                                            ブリーチ・ザ・アニメは2019年に戻ってくると噂されています。スタジオ・ピエロは公式Twitterに素晴らしい投稿をアップロードしており、以下もその1つです。アニメのオンラインコミュニティによって、漫画家Tite Kuboによって作成され、スタジオピエロによってアニメーション化された漫画Bleachが復活する可能性があると噂されています。</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a class="btn btn-primary" href="#">続きを読む</a> 
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+
+
+        </div>
+    
+        
+    </body>
+</html>

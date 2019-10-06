@@ -1,0 +1,25 @@
+#myVideo{
+    width: 100%;
+}
+
+.centered-heading {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    font-size: 4em;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    color: white;
+    font-size: 1.5em;
+}
+
+#getStarted {
+    position: absolute;
+    top: 60%;
+    left: 47%;
+}

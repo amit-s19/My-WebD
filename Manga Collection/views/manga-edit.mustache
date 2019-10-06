@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Edit Page</h1>
+        <!--
+        <form class="" action="/manga/edit/{{mnga.bid}}" method="post">
+        <input class="input" type="text" name="name"  value="{{mnga.name}}" placeholder="Book name">
+        <input type="text" name="author" value="{{mnga.author}}" placeholder="Author name">
+        <input type="text" name="price" value="{{mnga.price}}" placeholder="Price">
+        <button type="submit">Save</button>
+        -->
+
+         <form action="/manga/edit/{{mnga.bid}}" method="post">
+            <div class="form-group">
+                <label>Book name:</label>
+                <input type="text" class="form-control" name="name" value="{{mnga.name}}">
+            </div>
+            <div class="form-group">
+                <label>Author name:</label>
+                <input type="text" class="form-control" name="author" value="{{mnga.author}}">
+            </div>
+            <div class="form-group">
+                <label>Price:</label>
+                <input type="text" class="form-control" name="price" value="{{mnga.price}}">
+            </div>
+            <button type="submit" class="btn btn-dark">Save</button>
+        </form>
+
+
+    </body>
+</html>

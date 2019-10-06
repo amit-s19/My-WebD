@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="dash.css" type="text/css">
+    </head>
+    <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Dashboard</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        Stats available
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-dark">
+                            <tr>
+                                <td>Total Books</td>
+                                <td>Total Price</td>
+                            </tr>    
+                            <tr>
+                            {{#n2}}<td>{{count}}</td>{{/n2}}
+                            {{#n1}}<td>{{sum}}</td>{{/n1}}
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        Functionality
+                    </div>
+                    <div class="card-body">
+                        <a href="/add" class="btn btn-primary">Add book</a>
+                        <a href="/manga" class="btn btn-primary">Edit book details</a>
+                        <a href="/manga" class="btn btn-primary">Delete book</a>
+                        <a href="/manga" class="btn btn-primary">Display list of books</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+    </body>
+</html>
